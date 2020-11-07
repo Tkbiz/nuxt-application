@@ -12,7 +12,7 @@
               </nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link active-class="active" class="nav-link solutions" to="/solution">
+              <nuxt-link active-class="active" class="nav-link solutions" to="/solutions">
                 <fa class="nav-icon" :icon="['fas','key']"/>
                 Solutions
               </nuxt-link>
