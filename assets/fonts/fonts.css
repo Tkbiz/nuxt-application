@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "orelo";
+    src: url("../fonts/Orelo-SemiWide.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "orelo-light";
+    src: url("../fonts/Orelo-SemiWideLight.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "orelo-medium";
+    src: url("../fonts/Orelo-SemiWideMedium.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}

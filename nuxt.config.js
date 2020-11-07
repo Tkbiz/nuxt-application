@@ -15,6 +15,7 @@ export default {
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     '@node_modules/bootstrap/dist/css/bootstrap.min.css',
+    '@/assets/fonts/fonts.css',
     '@/assets/scss/main.scss'
   ],
 
@@ -27,7 +28,41 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [],
+  buildModules: [
+    ['nuxt-fontawesome', {
+    component: 'fa',
+      imports: [
+        {
+          set: '@fortawesome/free-brands-svg-icons',
+          icons: ['faFacebookF']
+        },
+        {
+          set: '@fortawesome/free-brands-svg-icons',
+          icons: ['faTwitter']
+        },
+        {
+          set: '@fortawesome/free-brands-svg-icons',
+          icons: ['faInstagram']
+        },
+        {
+          set: '@fortawesome/free-brands-svg-icons',
+          icons: ['faLinkedinIn']
+        },
+        {
+          set: '@fortawesome/free-solid-svg-icons',
+          icons: ['faInfo']
+        },
+        {
+          set: '@fortawesome/free-solid-svg-icons',
+          icons: ['faKey']
+        },
+        {
+          set: '@fortawesome/free-solid-svg-icons',
+          icons: ['faPhoneAlt']
+        }
+      ]
+    }]
+  ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [],
