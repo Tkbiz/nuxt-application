@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="footer">
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <ul class="col-12 social-menu">
